@@ -1,7 +1,6 @@
 package server
 
 import (
-	"github.com/takama/daemon"
 	"godis/src/server/handler"
 	"net/http"
 	"os"
@@ -10,7 +9,6 @@ import (
 )
 
 type Server struct {
-	daemon.Daemon
 	Port int
 	Ip string
 	server *http.Server
