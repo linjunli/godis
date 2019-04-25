@@ -13,3 +13,7 @@
 
 bin/
 .idea/
+
+*.log
+.DS_Store
+pkg/

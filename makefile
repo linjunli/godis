@@ -1,5 +1,5 @@
 
-servergo=./src/main/main.go
+servergo=./src/main/server.go
 serverbin=./bin/server
 
 all : $(servergo)

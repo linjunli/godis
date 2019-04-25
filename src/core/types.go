@@ -1,5 +1,10 @@
 package core
 
+type Godis struct {
+	Data []map[string]interface{}
+	Len int
+}
+
 type Sds struct {
 	Len int
 	Unused int
